@@ -23,8 +23,8 @@ const Header = () => {
   return (
     <header
       className={`${
-        isActive ? 'lg:top-0 bg-white shadow-2xl' : 'lg:top-[60px]'
-      } py-6 lg:py-4 fixed w-full transition-all z-10`}
+        isActive ? ' bg-white shadow-2xl' : 'lg:top-[60px]'
+      } py-6 lg:py-4 fixed w-full z-10`}
     >
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}

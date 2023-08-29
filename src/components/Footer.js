@@ -22,7 +22,7 @@ const Footer = () => {
                 // destructure item
                 const { href, name } = item;
                 return (
-                  <li>
+                  <li key={index}>
                     <a
                       className=" font-medium hover:text-accent transition"
                       href={href}
@@ -42,7 +42,7 @@ const Footer = () => {
                 // destructure item
                 const { href, name } = item;
                 return (
-                  <li>
+                  <li key={index}>
                     <a
                       className=" font-medium hover:text-accent transition"
                       href={href}
